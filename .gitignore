@@ -1,8 +1,8 @@
 # ignore data
-.csv
+project2.csv
 
 # ignore rds data
 .rds
 
 # ignore text file
-.txt
+PDA2Mice.txt
