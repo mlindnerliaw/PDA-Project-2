@@ -1,0 +1,8 @@
+# ignore data
+.csv
+
+# ignore rds data
+.rds
+
+# ignore text file
+.txt
