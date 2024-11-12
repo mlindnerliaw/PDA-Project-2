@@ -156,7 +156,7 @@ kable(prop, caption = "Variables with Missingness",
 #saveRDS(dat_mice, "PDA2Mice")
 
 # read in imputed data
-dat_mice<-readRDS("PDA2Mice")
+dat_mice<-readRDS("PDA2Mice.txt")
 
 ```
 
@@ -302,8 +302,6 @@ Our modeling results found that currently having MDD and smoking only menthol ci
 [1] Hitsman B, Papandonatos GD, Gollan JK, Huffman MD, Niaura R, Mohr DC, Veluz-Wilkins AK, Lubitz SF, Hole A, Leone FT, Khan SS, Fox EN, Bauer AM, Wileyto EP, Bastian J, Schnoll RA. Efficacy and safety of combination behavioral activation for smoking cessation and varenicline for treating tobacco dependence among individuals with current or past major depressive disorder: A 2×2 factorial, randomized, placebo-controlled trial. Addiction. 2023 Sep;118(9):1710-1725. doi: 10.1111/add.16209. Epub 2023 May 3. Erratum in: Addiction. 2024 Sep;119(9):1669. doi: 10.1111/add.16609. PMID: 37069490.
 
 \newpage
-
-## Code Appendix
 
 ## Code Appendix
 ```{r, ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
